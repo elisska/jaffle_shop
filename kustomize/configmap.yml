@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dbt-spark
+data:
+  hive-schema: "dbt"
+  thrift-server-host: "spark-endpoint" #here should be real endpoint
+  thrift-server-port: "10010"

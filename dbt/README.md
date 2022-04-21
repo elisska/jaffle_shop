@@ -76,3 +76,8 @@ For more information on dbt:
 - Read the [dbt viewpoint](https://docs.getdbt.com/docs/about/viewpoint).
 - Join the [dbt community](http://community.getdbt.com/).
 ---
+
+
+export HIVE_DATABASE=dbt
+export THRIFT_SERVER_HOST=104.198.243.7
+export THRIFT_SERVER_PORT=10010
